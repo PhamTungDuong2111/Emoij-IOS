@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EM0100012D00000100000001 /* EmojiMaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EM0200012D00000100000001 /* EmojiMaskApp.swift */; };
+		EM0100022D00000100000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EM0200022D00000100000001 /* ContentView.swift */; };
+		EM0100032D00000100000001 /* EmojiMaskType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EM0200032D00000100000001 /* EmojiMaskType.swift */; };
+		EM0100042D00000100000001 /* FaceExpressionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EM0200042D00000100000001 /* FaceExpressionState.swift */; };
+		EM0100052D00000100000001 /* FaceSmoother.swift in Sources */ = {isa = PBXBuildFile; fileRef = EM0200052D00000100000001 /* FaceSmoother.swift */; };
+		EM0100062D00000100000001 /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EM0200062D00000100000001 /* LocalizationManager.swift */; };
+		EM0100072D00000100000001 /* FaceExpressionTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EM0200072D00000100000001 /* FaceExpressionTracker.swift */; };
+		EM0100082D00000100000001 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EM0200082D00000100000001 /* CameraManager.swift */; };
+		EM0100092D00000100000001 /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EM0200092D00000100000001 /* PhotoManager.swift */; };
+		EM01000A2D00000100000001 /* EmojiMaskRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EM02000A2D00000100000001 /* EmojiMaskRenderer.swift */; };
+		EM01000B2D00000100000001 /* EmojiMaskOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EM02000B2D00000100000001 /* EmojiMaskOverlayView.swift */; };
+		EM01000C2D00000100000001 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EM02000C2D00000100000001 /* CameraPreviewView.swift */; };
+		EM01000D2D00000100000001 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EM02000D2D00000100000001 /* TopBarView.swift */; };
+		EM01000E2D00000100000001 /* MaskCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EM02000E2D00000100000001 /* MaskCarouselView.swift */; };
+		EM01000F2D00000100000001 /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EM02000F2D00000100000001 /* BottomBarView.swift */; };
+		EM0100102D00000100000001 /* CameraPermissionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EM0200102D00000100000001 /* CameraPermissionCard.swift */; };
+		EM0100112D00000100000001 /* PhotoPreviewDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = EM0200112D00000100000001 /* PhotoPreviewDialog.swift */; };
+		EM0100122D00000100000001 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EM0200122D00000100000001 /* Color+Extensions.swift */; };
+		EM0100132D00000100000001 /* ImageCompositor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EM0200132D00000100000001 /* ImageCompositor.swift */; };
+		EM0100142D00000100000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EM0200142D00000100000001 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EM0000012D00000100000001 /* EmojiMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EM0200012D00000100000001 /* EmojiMaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMaskApp.swift; sourceTree = "<group>"; };
+		EM0200022D00000100000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EM0200032D00000100000001 /* EmojiMaskType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMaskType.swift; sourceTree = "<group>"; };
+		EM0200042D00000100000001 /* FaceExpressionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceExpressionState.swift; sourceTree = "<group>"; };
+		EM0200052D00000100000001 /* FaceSmoother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceSmoother.swift; sourceTree = "<group>"; };
+		EM0200062D00000100000001 /* LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
+		EM0200072D00000100000001 /* FaceExpressionTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceExpressionTracker.swift; sourceTree = "<group>"; };
+		EM0200082D00000100000001 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		EM0200092D00000100000001 /* PhotoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
+		EM02000A2D00000100000001 /* EmojiMaskRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMaskRenderer.swift; sourceTree = "<group>"; };
+		EM02000B2D00000100000001 /* EmojiMaskOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMaskOverlayView.swift; sourceTree = "<group>"; };
+		EM02000C2D00000100000001 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		EM02000D2D00000100000001 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
+		EM02000E2D00000100000001 /* MaskCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskCarouselView.swift; sourceTree = "<group>"; };
+		EM02000F2D00000100000001 /* BottomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarView.swift; sourceTree = "<group>"; };
+		EM0200102D00000100000001 /* CameraPermissionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermissionCard.swift; sourceTree = "<group>"; };
+		EM0200112D00000100000001 /* PhotoPreviewDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPreviewDialog.swift; sourceTree = "<group>"; };
+		EM0200122D00000100000001 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		EM0200132D00000100000001 /* ImageCompositor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCompositor.swift; sourceTree = "<group>"; };
+		EM0200142D00000100000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EM0200152D00000100000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EM0000022D00000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EM0000032D00000100000001 = {
+			isa = PBXGroup;
+			children = (
+				EM0000042D00000100000001 /* EmojiMask */,
+				EM0000052D00000100000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EM0000042D00000100000001 /* EmojiMask */ = {
+			isa = PBXGroup;
+			children = (
+				EM0000062D00000100000001 /* App */,
+				EM0000072D00000100000001 /* Models */,
+				EM0000082D00000100000001 /* Services */,
+				EM0000092D00000100000001 /* Views */,
+				EM00000A2D00000100000001 /* Utilities */,
+				EM0200142D00000100000001 /* Assets.xcassets */,
+			);
+			path = EmojiMask;
+			sourceTree = "<group>";
+		};
+		EM0000052D00000100000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EM0000012D00000100000001 /* EmojiMask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EM0000062D00000100000001 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EM0200012D00000100000001 /* EmojiMaskApp.swift */,
+				EM0200022D00000100000001 /* ContentView.swift */,
+				EM0200152D00000100000001 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EM0000072D00000100000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EM0200032D00000100000001 /* EmojiMaskType.swift */,
+				EM0200042D00000100000001 /* FaceExpressionState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EM0000082D00000100000001 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EM0200052D00000100000001 /* FaceSmoother.swift */,
+				EM0200062D00000100000001 /* LocalizationManager.swift */,
+				EM0200072D00000100000001 /* FaceExpressionTracker.swift */,
+				EM0200082D00000100000001 /* CameraManager.swift */,
+				EM0200092D00000100000001 /* PhotoManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EM0000092D00000100000001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EM00000B2D00000100000001 /* Camera */,
+				EM00000C2D00000100000001 /* Overlay */,
+				EM00000D2D00000100000001 /* Controls */,
+				EM00000E2D00000100000001 /* Permission */,
+				EM00000F2D00000100000001 /* Preview */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EM00000B2D00000100000001 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				EM02000C2D00000100000001 /* CameraPreviewView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		EM00000C2D00000100000001 /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				EM02000A2D00000100000001 /* EmojiMaskRenderer.swift */,
+				EM02000B2D00000100000001 /* EmojiMaskOverlayView.swift */,
+			);
+			path = Overlay;
+			sourceTree = "<group>";
+		};
+		EM00000D2D00000100000001 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				EM02000D2D00000100000001 /* TopBarView.swift */,
+				EM02000E2D00000100000001 /* MaskCarouselView.swift */,
+				EM02000F2D00000100000001 /* BottomBarView.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		EM00000E2D00000100000001 /* Permission */ = {
+			isa = PBXGroup;
+			children = (
+				EM0200102D00000100000001 /* CameraPermissionCard.swift */,
+			);
+			path = Permission;
+			sourceTree = "<group>";
+		};
+		EM00000F2D00000100000001 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				EM0200112D00000100000001 /* PhotoPreviewDialog.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		EM00000A2D00000100000001 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EM0200122D00000100000001 /* Color+Extensions.swift */,
+				EM0200132D00000100000001 /* ImageCompositor.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EM0000102D00000100000001 /* EmojiMask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EM0000142D00000100000001 /* Build configuration list for PBXNativeTarget "EmojiMask" */;
+			buildPhases = (
+				EM0000112D00000100000001 /* Sources */,
+				EM0000022D00000100000001 /* Frameworks */,
+				EM0000122D00000100000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmojiMask;
+			productName = EmojiMask;
+			productReference = EM0000012D00000100000001 /* EmojiMask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EM0000132D00000100000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EM0000102D00000100000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = EM0000172D00000100000001 /* Build configuration list for PBXProject "EmojiMask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EM0000032D00000100000001;
+			productRefGroup = EM0000052D00000100000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EM0000102D00000100000001 /* EmojiMask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EM0000122D00000100000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EM0100142D00000100000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EM0000112D00000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EM0100012D00000100000001 /* EmojiMaskApp.swift in Sources */,
+				EM0100022D00000100000001 /* ContentView.swift in Sources */,
+				EM0100032D00000100000001 /* EmojiMaskType.swift in Sources */,
+				EM0100042D00000100000001 /* FaceExpressionState.swift in Sources */,
+				EM0100052D00000100000001 /* FaceSmoother.swift in Sources */,
+				EM0100062D00000100000001 /* LocalizationManager.swift in Sources */,
+				EM0100072D00000100000001 /* FaceExpressionTracker.swift in Sources */,
+				EM0100082D00000100000001 /* CameraManager.swift in Sources */,
+				EM0100092D00000100000001 /* PhotoManager.swift in Sources */,
+				EM01000A2D00000100000001 /* EmojiMaskRenderer.swift in Sources */,
+				EM01000B2D00000100000001 /* EmojiMaskOverlayView.swift in Sources */,
+				EM01000C2D00000100000001 /* CameraPreviewView.swift in Sources */,
+				EM01000D2D00000100000001 /* TopBarView.swift in Sources */,
+				EM01000E2D00000100000001 /* MaskCarouselView.swift in Sources */,
+				EM01000F2D00000100000001 /* BottomBarView.swift in Sources */,
+				EM0100102D00000100000001 /* CameraPermissionCard.swift in Sources */,
+				EM0100112D00000100000001 /* PhotoPreviewDialog.swift in Sources */,
+				EM0100122D00000100000001 /* Color+Extensions.swift in Sources */,
+				EM0100132D00000100000001 /* ImageCompositor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EM0000152D00000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EM0000162D00000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EM0000182D00000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "EmojiMask/App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Emoji Mask";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.randomvisual.emojimask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EM0000192D00000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "EmojiMask/App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Emoji Mask";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.randomvisual.emojimask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EM0000142D00000100000001 /* Build configuration list for PBXNativeTarget "EmojiMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EM0000182D00000100000001 /* Debug */,
+				EM0000192D00000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EM0000172D00000100000001 /* Build configuration list for PBXProject "EmojiMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EM0000152D00000100000001 /* Debug */,
+				EM0000162D00000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EM0000132D00000100000001 /* Project object */;
+}
